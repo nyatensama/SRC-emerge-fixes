@@ -22,7 +22,7 @@ def gen_template():
                         "value": "zh-CN",
                     },
                     "work_dir": {
-                        "value": "./repos/DaCapo-SRC-Adapter",
+                        "value": "./repos/SRC-emerge-fixes",
                         "disabled": True,
                     },
                     "background": {
@@ -30,10 +30,10 @@ def gen_template():
                         "disabled": True,
                     },
                     "config_path": {
-                        "value": "./repos/DaCapo-SRC-Adapter/src.json",
+                        "value": "./repos/SRC-emerge-fixes/src.json",
                     },
                     "log_path": {
-                        "value": "./repos/DaCapo-SRC-Adapter/StarRailCopilot/log",
+                        "value": "./repos/SRC-emerge-fixes/StarRailCopilot/log",
                         "disabled": True,
                     },
                 }
