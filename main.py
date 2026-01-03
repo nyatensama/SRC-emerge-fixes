@@ -22,7 +22,7 @@ def check_repository():
                 [
                     "git",
                     "clone",
-                    "https://github.com/LmeSzinc/StarRailCopilot.git",
+                    "https://github.com/nyatensama/StarRailCopilot.git",
                 ],
                 check=True,
                 cwd=Path(__file__).parent,
@@ -31,12 +31,12 @@ def check_repository():
         except subprocess.CalledProcessError as e:
             print(f"Failed to clone StarRailCopilot repository: {e}")
             print("Please manually clone the repository:")
-            print("git clone https://github.com/LmeSzinc/StarRailCopilot.git")
+            print("git clone https://github.com/nyatensama/StarRailCopilot.git")
             sys.exit(1)
         except FileNotFoundError:
             print("Git is not installed or not in PATH")
             print("Please install Git and try again, or manually clone the repository:")
-            print("git clone https://github.com/LmeSzinc/StarRailCopilot.git")
+            print("git clone https://github.com/nyatensama/StarRailCopilot.git")
             sys.exit(1)
 
 
